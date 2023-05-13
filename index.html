@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Explorer</title>
+  
+  <link rel="shortcut icon" href="./assets/planetPink.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="./assets/astronaut.png" alt="image of an astronaut with planets and universe as background">
+    <div class="text">
+      <h1>Explore limitless</h1>
+      <p>Because we never stop learnin</p>
+    </div>
+    <button id="header-button"><a href="#main">
+      <img src="./assets/button.svg" alt="rectangular button">
+      </a>
+    </button>
+  </header>
+
+  <main id="main">
+    <div class="yellow">
+      <img src="./assets/planetYellow.svg" alt="yellow planet icon">
+      <h2>Don't ever quit</h2>
+      <p>  
+        If you want to be successful in your studies, it's critical that you adopt a "don't ever quit" mindset. Studying consistently and continuously is the key to progress and achieving your goals.
+      </p>
+    </div>
+    
+    <div class="blue">
+      <img src="./assets/planetBlue.svg" alt="blue planet icon">
+      <h2>Start over</h2>
+      <p>  
+        If you've stopped or lost pace in any activity or project, know that it's never too late to start over. Circumstances can change at times, or we may feel unmotivated or overwhelmed.
+      </p>
+    </div>
+
+    <div class="pink">
+      <img src="./assets/planetPink.svg" alt="pink planet icon">
+      <h2>Go at your own pace</h2>
+      <p>  
+        Moving forward keeps steady progress on goals, preventing stalling or giving up. Even small steps bring us closer to the destination and motivate continuity. Do not underestimate the power of each action towards the final goal.
+      </p>
+    </div>
+  </main>
+
+  <section class="contact">
+    <div class="form-wrapper">
+      <h1>Contact us</h1>
+        <form>
+            <div class="name">
+              <label for="name" class="sr-only">Your name</label>
+              <input id="name" type="text" placeholder="Your name">
+              <img src="./assets/name.svg" alt="user icon">
+            </div>
+
+            <div class="email">
+              <label for="email" class="sr-only">Email</label>
+              <input id="email" type="email" placeholder="Email">
+              <img src="./assets/email.svg" alt="email icon">
+            </div>
+
+            <label for="message" class="sr-only">Write your message</label>
+            <textarea id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+            <button id="form-button">Send message</button>
+        </form>
+    </div>
+
+    <img id="stars" src="./assets/starsBg.svg" alt="decoratives stars on background">
+  </section>
+
+  <footer>
+    <p>© 2023 - Rocketseat Explorer</p>
+  </footer>
+</body>
+</html>
